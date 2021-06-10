@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+h1{
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.container{
+    margin: 40px auto;
+
+    width: 60%;
+    height: 500px;
+    /* text-align: center; */
+
+}
+
+.post-container {
+    margin: auto ;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+
+ 
+
+}
+
+.avatar{
+    background-image: url(avatar.png);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    /* padding-right: 20px; */
+    
+}
+
+.post-text{
+    /* border: black solid 2px;
+    width: 70%;
+    height: 150px; */
+    border-radius: 100px;
+    width: 80%;
+    border: black 2px solid;
+    vertical-align: middle;
+    
+}
+
+.input{
+    width: 80%;
+    height: 120px;
+    margin: 20px auto;
+    padding: 20px 50px;
+    display: block;
+    border: 0px;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    border: grey 1px solid;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.button{
+    text-align: center;
+    height: 30px;
+    width: 70px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    margin-inline-start: 65%;
+
+}
+
+.postingan{
+
+    margin: 10px auto;
+
+    width: 70%;
+
+}
+
+.bubble{
+
+    border-radius: 30px;
+    border: grey 0.2px solid;
+    background-color: white;
+    min-height: min-content;
+    padding: 15px;
+    padding-left: 20px;
+    width: 80%;
+    margin: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    box-shadow: 4px 3px 8px  grey;
+
+}
+
+@media  screen and (max-width: 578px) {
+    
+    .container {
+        width: 100%;
+    }
+
+    .avatar{
+        height: 50px;
+        width: 50px;
+        align-self: center;
+    }
+}
