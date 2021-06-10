@@ -85,8 +85,8 @@ h1{
 .postingan{
 
     margin: 10px auto;
-
     width: 70%;
+    padding-bottom: 20px;
 
 }
 
@@ -103,7 +103,12 @@ h1{
     box-sizing: border-box;
     text-align: left;
     box-shadow: 4px 3px 8px  grey;
+    word-wrap: break-word;
 
+}
+
+p{
+    
 }
 
 @media  screen and (max-width: 578px) {
@@ -117,4 +122,8 @@ h1{
         width: 50px;
         align-self: center;
     }
+    .bubble{
+        word-wrap: break-word;
+    }
+
 }

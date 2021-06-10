@@ -22,6 +22,8 @@ post.addEventListener('click', function(){
         timeline.appendChild(bubble)
         bubble.appendChild(new_post)
 
+        document.querySelector('.input').value = ''
+
     }
     else if(text.length == 0){
         
@@ -34,7 +36,7 @@ post.addEventListener('click', function(){
 
  
 
-    document.querySelector('.input').value = ''
+
 
 
 
